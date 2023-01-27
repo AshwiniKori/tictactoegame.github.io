@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    width: 40%;
+    height: 10rem;
+    margin-left: 400px;
+    margin-top:200px;
+    background-color: aqua;
+    box-shadow: 10px 10px 5px white;
+}
+
+.cell {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+h1 {
+    text-align: center;
+}
